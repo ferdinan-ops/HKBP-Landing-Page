@@ -148,7 +148,7 @@ li.menu a:hover {
   position: relative;
   color: white;
   transition: 5s;
-  animation: slide 10s ease-in-out infinite alternate-reverse forwards;
+  animation: slide 30s ease-in-out infinite alternate-reverse forwards;
 }
 
 .jumbotron .judul {
