@@ -4,6 +4,10 @@
   --color-primary: #30318b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -97,17 +101,19 @@ ul.link {
 ul.link.active {
   transform: scale(1);
 }
-
 li.menu a {
-  color: var(--color-primary);
+  color: black;
   text-shadow: none;
   display: flex;
   justify-content: center;
   padding: 20px 0;
-  font-weight: bold;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.2s;
 }
-li.menu a:first-child {
-  text-align: center;
+
+li.menu a:hover {
+  color: var(--color-primary);
 }
 
 /* jumbotron */
