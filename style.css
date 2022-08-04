@@ -195,9 +195,7 @@ li.menu a:hover {
 
 /* About */
 .about {
-  height: calc(100vh - 90px);
-  padding: 0 9%;
-  margin-top: 90px;
+  padding: 90px 9%;
 }
 
 .about h2 {
@@ -270,6 +268,13 @@ footer a {
   color: white;
   letter-spacing: 0.7px;
   font-weight: 300;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: #595bc0;
 }
 
 footer h3 {
@@ -281,6 +286,7 @@ footer h3 {
 .brands-footer {
   width: 25%;
   text-align: center;
+  margin-top: -8px;
 }
 
 .brands-footer > * {
