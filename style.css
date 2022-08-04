@@ -197,10 +197,10 @@ li.menu a:hover {
 .about {
   height: calc(100vh - 90px);
   padding: 0 9%;
+  margin-top: 90px;
 }
 
 .about h2 {
-  margin-top: 90px;
   padding-top: 40px;
   font-size: 28px;
   text-align: center;
@@ -255,4 +255,39 @@ li.menu a:hover {
 .social-media a:hover {
   background-color: var(--color-primary);
   color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #171821;
+  color: #ddd;
+  display: flex;
+  padding: 40px 9%;
+  justify-content: space-between;
+}
+
+footer a {
+  color: white;
+  letter-spacing: 0.7px;
+  font-weight: 300;
+}
+
+footer h3 {
+  color: #595bc0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.brands-footer {
+  width: 25%;
+  text-align: center;
+}
+
+.brands-footer > * {
+  margin-bottom: 10px;
+}
+
+.brands-footer > *:last-child {
+  margin: 0;
+  color: #595bc0;
 }
