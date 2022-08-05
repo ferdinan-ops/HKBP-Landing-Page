@@ -89,7 +89,7 @@ ul.link {
   top: 50px;
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.352);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 300px;
@@ -296,4 +296,62 @@ footer h3 {
 .brands-footer > *:last-child {
   margin: 0;
   color: #595bc0;
+}
+
+@media only screen and (max-width: 768px) {
+  .brand span {
+    display: none;
+  }
+
+  ul.link {
+    width: 200px;
+    padding: 0;
+  }
+
+  li.menu a {
+    padding: 10px 0;
+  }
+
+  .jumbotron {
+    transition: none;
+  }
+
+  header {
+    padding: 0 6%;
+  }
+
+  .about {
+    padding: 90px 6%;
+    height: unset;
+  }
+  .wrap {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    padding: 50px 0 0;
+  }
+
+  .img-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .desc {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 0 6%;
+  }
+
+  footer > * {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .brands-footer {
+    margin: 30px 0;
+    width: 100%;
+  }
 }
